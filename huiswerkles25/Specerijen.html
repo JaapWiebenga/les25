@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, intitial-scale=1" >
+            <link
+                href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity=
+                "sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+                crossorigin="anonymous">
+                <style type="text/css">
+                    body {
+                        background-color: whitesmoke;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        padding: 40px;
+                    }
+                    header {
+                        min-height: 200px;
+                        background-color: olive; color: whitesmoke;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        margin-left: 100px;
+                        margin-right: 100px;
+                    }
+                    footer {
+                        min-height: 200px;
+                        background-color: olive; color: whitesmoke;
+                        margin-left: 100px;
+                        margin-right: 100px;
+                    }
+                    container {
+                        min-height: 300px;
+                    }
+                    ul { 
+                        list-style-type: circle;
+                    }
+                    h1, h3 { 
+                        margin-left: 600px;
+                    }
+                </style>
+            <title>Mix uw specerijen</title>
+            <script
+                src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+                <script type="text/javascript">
+                $(document).ready(function() {
+                $("#knop").click(function() {
+                var keuzea = $("#idTekstveld1").val();
+                var keuzeb = $("#idTekstveld2").val();
+                var keuzec = $("#idTekstveld3").val();
+                var keuzed = $("#idTekstveld4").val();
+                var keuzee = $("#idTekstveld5").val();
+                window.alert(
+                "Ik zou graag een mix willen van de volgende kruiden " + keuzea +  ", "
+                 + keuzeb + ", " + keuzec + ", " + keuzed + " en " + keuzee
+                );
+                });
+                });
+            </script>
+        </head>
+            <body>
+                <header><h1>The Art of Taste</h1>
+                    <h3>Join our tasteful journey</h3>
+                </header>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            Assortiment 1 
+                            <ul>
+                                <li>Peterselie</li>
+                                <li>Basilicum</li>
+                                <li>Bieslook</li>
+                                <li>Tijm</li>
+                                <li>selderijblad</li>
+                            </ul>
+                            <form>
+                                <input type="text" placeholder="Maak uw keuze" id="idTekstveld1"><br>
+                            </form>
+                            </div>
+                            <div class="col-sm">
+                            assortiment 2
+                            <ul>
+                                <li>Mosterd geel</li>
+                                <li>mosterd bruin</li>
+                                <li>Zwarte peperkorrel</li>
+                                <li>Witte peperkorrel</li>
+                                <li>Korianderkorrel</li>
+                            </ul>
+                            <form>
+                                <input type="text" placeholder="Maak uw keuze" id="idTekstveld2"><br>
+                            </form>
+                            </div>
+                            <div class="col-sm">
+                            assortiment 3
+                            <ul>
+                                <li>Komijn</li>
+                                <li>Venkelzaad</li>
+                                <li>Karwijzaad</li>
+                                <li>Kummel</li>
+                                <li>Nootmuskaat</li>
+                            </ul>
+                            <form>
+                                <input type="text" placeholder="Maak uw keuze" id="idTekstveld3"><br>
+                            </form>
+                            </div>
+                            <div class="col-sm">
+                            assortiment 4
+                            <ul>
+                                <li>Korianderblad</li>
+                                <li>rozemarijn</li>
+                                <li>Paprika poeder</li>
+                                <li>Ancho peper</li>
+                                <li>Cayenne peper</li>
+                            </ul>
+                            <form>
+                                <input type="text" placeholder="Maak uw keuze" id="idTekstveld4"><br>
+                            </form>
+                            </div>
+                            <div class="col-sm">
+                            assortiment 5
+                            <ul>
+                                <li>Saffraan</li>
+                                <li>Kurkuma</li>
+                                <li>Steranijs</li>
+                                <li>Oregano</li>
+                                <li>Zsechuan peper</li>
+                            </ul>
+                            <form>
+                                <input type="text" placeholder="Maak uw keuze" id="idTekstveld5"><br>
+                            </form>
+                            </div>
+                            <div class="col-sm">
+                               <br>
+                                <form>
+                                    <input id="knop" name="knop" type="button" value="klik om te mixen">
+                                </form>
+                            </div>
+                            <br>   
+                        </div>
+                    </div>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+                    integrity=
+                    "sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+                    crossorigin="anonymous">
+                    </script>
+            <footer>© Jaap Wiebenga</footer>
+        </body>
+    </html>
+    
+
+
+
+    
